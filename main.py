@@ -32,8 +32,8 @@ def jalan():
                print(f"Pendapatan anda hari ini! {pendapatan} Semangatt!")
                break
 
-print("Mulai jalan?\t: ")
-driver = str(input("Y/N")).lower()
+print("Mulai jalan?")
+driver = str(input("Y/N\t: ")).lower()
 if driver != "y":
      exit()
 elif driver == "y":
