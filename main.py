@@ -19,7 +19,7 @@ def jalan():
           print("3. Selesai")
           user = int(input("Masukkan pilihan anda\t: "))
           if user == 1:
-               jarak = int(input("Masukkan jarak\t: "))
+               jarak = int(input("Masukkan jarak(meter)\t: "))
                penumpang = tarif(jarak)
                pendapatan += penumpang
                print("Telah Sampai Tujuan")
@@ -32,7 +32,7 @@ def jalan():
                print(f"Pendapatan anda hari ini! {pendapatan} Semangatt!")
                break
 
-print("Mulai jalan?")
+print("Mulai jalan?\t: ")
 driver = str(input("Y/N")).lower()
 if driver != "y":
      exit()
